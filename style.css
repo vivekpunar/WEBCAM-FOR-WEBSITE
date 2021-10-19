@@ -1,0 +1,63 @@
+body{
+  background: black;
+}
+
+#video{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  background: gray;
+  border: 10px solid white;
+  box-sizing: border-box;
+}
+.digit{
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 50px;
+  height: 120px;
+  text-align: center;
+  color: white;
+  z-index: 1;
+  font-size: 100px;
+}
+#canvas{
+  display: none;
+}
+#output{
+  display: none;
+  position: absolute;
+  width:320px;
+  height: 320px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  background: gray;
+  border: 10px solid white;
+  box-sizing: border-box;
+  z-index: 1;
+}
+img{
+  width: 300px;
+  height: 300px;
+}
+
+input[type="button"]{
+  position: absolute;
+  top: 45vh;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 320px;
+  height: 40px;
+}
